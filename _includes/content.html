@@ -1,24 +1,39 @@
-<h2>About Compass</h2>
-<p>Compass has been designed with something very specific in mind: to be a simple and elegant personal landing page.</p>
+<h2>About</h2>
+<p>
+Northeastern's Computer Science Mentoring Organization serves
+to better connect Northeastern students who are interested in Computer Science.
+This club is open to CS majors, combined majors, minors, and non-majors.
+</p>
 
-<h2>Features</h2>
-<ul>
-  <li>Responsive design</li>
-  <li>Mobile friendly</li>
-  <li>Easy deployment to <a href="https://pages.github.com/">GitHub Pages</a></li>
-</ul>
+<p>
+  Interested in our mentorship program? Please fill out our quick surveys to join.
+<ui>
+  <li><a href="http://bit.ly/CoSMOMentorSignup"> Mentors</a></li>
+    <li><a href="http://bit.ly/CoSMOMenteeSignup"> Mentees</a></li>
+  </ui>
+  </p>
 
-<p>For more information, including setup and configuration instructions, bug reports or feature requests head over to <a href="https://github.com/excentris/compass">GitHub</a>.</p>
-
+<h2>What's up next?</h2>
+{% for event in site.data.upcoming %}
+  <h4><a href="https://www.facebook.com/events/{{ event.fbID }}/">{{ event.title }}</a><br>{{ event.dateTime }}</h4>
+  <span id="next-details">
+    {{ event.description }}
+    </span>
+{% endfor %}
 <hr />
 
 <ul class="fa-ul main-list">
   <li class="main-list-item">
-    <span class="fa fa-github fa-lg main-list-item-icon"></span>
-    <a href="https://github.com/excentris/compass">GitHub Repository</a>
+    <span class="fa fa-facebook fa-lg main-list-item-icon"></span>
+    <a href="https://www.facebook.com/nuCoSMO/">Facebook</a>
   </li>
   <li class="main-list-item">
-    <span class="fa fa-user fa-lg main-list-item-icon"></span>
-    <a href="http://excentris.net">The Author</a>
+    <span class="fa fa-github fa-lg main-list-item-icon"></span>
+    <a href="https://github.com/NUCoSMO">GitHub</a>
   </li>
+  <li class="main-list-item">
+    <span class="fa fa-envelope fa-lg main-list-item-icon"></span>
+    <a href="http://eepurl.com/dJ4PUY">Join our Mailing List</a>
+  </li>
+
 </ul>

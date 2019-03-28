@@ -1,21 +1,27 @@
-# Documentation
+# nuCoSMO
 
-Compass is a Jekyll theme designed with something very specific in mind: to be a simple and elegant personal landing page that can be easily deployed to [GitHub Pages](https://pages.github.com/).
+This repo serves as the homepage for Northeastern University's CS Mentoring Club (CoSMO).
 
-## How to use Compass
+## Adding events
 
-1. Start by [installing Bundler](http://bundler.io) `gem install bundler`
-2. [Fork the Compass repository](https://github.com/excentris/compass/fork)
-3. Clone the repository you just forked: `git clone https://github.com/YOUR-USER/compass`
-4. Then run `bundle install` to get [Jekyll](http://jekyllrb.com) and all the dependencies.
-5. Edit `_config.yml` as needed.
-6. Run the Jekyll server with `bundle exec jekyll serve`
-7. Go to `http://localhost:4000`
+Events added to `_/data/upcoming.yaml` will be reflected on the front page of the site. Please follow the following format:
 
-## Deploy your site to GitHub Pages
+```yaml
+- title: Linux CLI "WarGames" Workshop
+  dateTime: 4/1/19 @ 7pm
+  fbID: 2222960244431411  # The end part of a facebook.com/events/XXXX URL
+  description:   <p>
+      Linux is an operating system that sits the at core of much of the technology we interact with daily.
+      Linux is free, secure, and having to work with it on the job is unavoidable.
+    </p>
+    <p>
+      Join CoSMO this Monday as we demystify the linux command line!We'll start the workshop by reviewing some common and good-to-know linux commands.
+      We'll then move into Bandit "War Games", an interactive shell-based game that reinforces basic commands
+      and teaches security concepts.
+      </p>
+```
 
-If you want to use Compass as your personal landing page you can deploy your site to GitHub Pages as a [User Page](https://help.github.com/articles/user-organization-and-project-pages/#user--organization-pages). To do so, when you are done modifying your clone, you should rename your repository to `username.github.io` where username is your username. When GitHub builds the page it will be made available at `https://username.github.io`.
+Multiple events can be listed, and will be rendered in the order they exist in the data file.
 
-If you are planning on using a custom domain to direct to your site, modify the CNAME file as described [here](https://help.github.com/articles/adding-a-cname-file-to-your-repository/).
-
-Check the [GitHub Pages Basics](https://help.github.com/categories/github-pages-basics/) for more information.
+## Acknowledgments
+This site is based of off the Jekyll theme Compass. See here for more info: https://excentris.github.io/compass/

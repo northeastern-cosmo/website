@@ -1,12 +1,12 @@
 ---
 ---
 
-$text-color: #46433A;
+$text-color: #fff4f4;
 $anchor-text-color: #CE534D;
-$background-color: #F1EED9;
+$background-color: #383838;
 
 body {
-	font-family: 'Vollkorn', serif;
+	font-family: 'Montserrat', serif;
 	color: $text-color;
 	background-color: $background-color;
 }
@@ -143,7 +143,7 @@ footer {
 	}
 
 	main {
-		width: 46%;
+		width: 60%;
 		margin-left: 54%;
 		padding: 0;
 	}

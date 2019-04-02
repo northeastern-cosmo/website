@@ -15,11 +15,30 @@ This club is open to CS majors, combined majors, minors, and non-majors.
 
 <h2>What's up next?</h2>
 {% for event in site.data.upcoming %}
-  <h4><a href="https://www.facebook.com/events/{{ event.fbID }}/">{{ event.title }}</a><br>{{ event.dateTime }}</h4>
+<div class="future" date="{{ event.dateTime | date: '%Y%m%d' }}">
+  <h4><a href="https://www.facebook.com/events/{{ event.fbID }}/">{{ event.title }}</a><br>{{ event.dateTime |  date: " %B  %-d, %Y @ %I:%M " }}</h4>
   <span id="next-details">
     {{ event.description }}
     </span>
+  </div>
 {% endfor %}
+<div class="future-no-content">
+  Nothing currently planned - check back soon!
+  </div>
+  <br>
+<h2>Past Events</h2>
+{% for event in site.data.upcoming %}
+<div class="past" date="{{ event.dateTime | date: '%Y%m%d' }}">
+  <h4><a href="https://www.facebook.com/events/{{ event.fbID }}/">{{ event.title }}</a><br>{{ event.dateTime |  date: " %B  %-d, %Y @ %I:%M " }}</h4>
+  <span id="next-details">
+    {{ event.description }}
+    </span>
+  </div>
+{% endfor %}
+<div class="past-no-content">
+  No past events to show!
+  </div>
+
 <hr />
 
 <ul class="fa-ul main-list">

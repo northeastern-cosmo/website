@@ -2,13 +2,29 @@
 ---
 
 $text-color: #fff4f4;
-$anchor-text-color: #CE534D;
+$anchor-text-color: #2A879E;
 $background-color: #383838;
 
 body {
 	font-family: 'Montserrat', serif;
 	color: $text-color;
 	background-color: $background-color;
+}
+
+.addColor {
+	color: $anchor-text-color;
+}
+
+.headshot {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	margin-bottom: 0px;
+}
+
+eboardMember {
+	display: flex;
+	flex-direction: row;
 }
 
 header,
@@ -60,14 +76,15 @@ since it must be aligned with the content */
 }
 
 .logo {
-	width: 96px;
-	height: 96px;
+	width: 250px;
+	height: 250px;
 	display: inline-block;
 	background-size: cover;
 	border-radius: 50%;
-	-moz-border-radius: 50%;
-	border: 2px solid $background-color;
-	box-shadow: 0 0 0 3px $text-color;
+	// -moz-border-radius: 50%;
+	// box-shadow: 0 0 0 3px $text-color;
+	margin: 5px;
+	padding: 5px;
 }
 
 /*** author ***/

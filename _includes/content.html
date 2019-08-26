@@ -1,60 +1,24 @@
-<h2>About</h2>
+<h2>Welcome!</h2>
 <p>
-Northeastern's Computer Science Mentoring Organization serves
-to better connect Northeastern students who are interested in Computer Science.
-This club is open to CS majors, combined majors, minors, and non-majors.
-</p>
+  Northeastern's Computer Science Mentoring Organization serves
+  to better connect Northeastern students who are interested in Computer Science.
 
-<p>
-<!--   Interested in our mentorship program? Please fill out our quick surveys to join.
+  <br><br>
+
+  This club is open to all. No prior CS experience required! <br><br>
+
+
+
+  Our regular Fall 2019 meeting time is:<br>
+  <span><strong>Wednesday night from 7:15-8:15 at Curry 344</strong>.<br><br></span>
+  Check our social media for details on upcoming events!
+
+  <p>
+    <!--   Interested in our mentorship program? Please fill out our quick surveys to join.
 <ui>
   <li><a href="http://bit.ly/CoSMOMentorSignup"> Mentors</a></li>
     <li><a href="http://bit.ly/CoSMOMenteeSignup"> Mentees</a></li>
   </ui> -->
-  Interested in our mentorship program? <br>Contact us <strong><a href="mailto:team@nucosmo.club">here</a></strong>!
   </p>
 
-<h2>What's up next?</h2>
-{% for event in site.data.upcoming %}
-<div class="future" date="{{ event.dateTime | date: '%Y%m%d' }}">
-  <h4><a href="https://www.facebook.com/events/{{ event.fbID }}/">{{ event.title }}</a><br>{{ event.dateTime |  date: " %B  %-d, %Y @ %I:%M " }}</h4>
-  <span id="next-details">
-    {{ event.description }}
-    </span>
-  </div>
-{% endfor %}
-<div class="future-no-content">
-  Nothing currently planned - check back soon!
-  </div>
-  <br>
-<h2>Past Events</h2>
-{% for event in site.data.upcoming %}
-<div class="past" date="{{ event.dateTime | date: '%Y%m%d' }}">
-  <h4><a href="https://www.facebook.com/events/{{ event.fbID }}/">{{ event.title }}</a><br>{{ event.dateTime |  date: " %B  %-d, %Y @ %I:%M " }}</h4>
-  <span id="next-details">
-    {{ event.description }}
-    </span>
-  </div>
-{% endfor %}
-<div class="past-no-content">
-  No past events to show!
-  </div>
-
-<hr />
-
-<ul class="fa-ul main-list">
-  <li class="main-list-item">
-    <span class="fa fa-facebook fa-lg main-list-item-icon"></span>
-    <a href="https://www.facebook.com/nuCoSMO/">Facebook</a>
-  </li>
-  <li class="main-list-item">
-    <span class="fa fa-github fa-lg main-list-item-icon"></span>
-    <a href="https://github.com/northeastern-cosmo">GitHub</a>
-  </li>
-  <li class="main-list-item">
-    <span class="fa fa-envelope fa-lg main-list-item-icon"></span>
-    <a href="http://eepurl.com/dJ4PUY">Join our Mailing List</a>
-  </li>
-  <br><br>
-
-</ul>
+  </ul>

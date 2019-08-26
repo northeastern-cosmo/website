@@ -1,0 +1,10 @@
+# Photos live in /images/people/...
+
+- name: Josh Spicer
+  img: josh.png
+  link: https://joshspicer.com
+  title: President & Founder
+
+- name: Colin Mullaney
+  img: colin.jpg
+  title: Founder (Graduated)

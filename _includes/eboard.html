@@ -2,7 +2,12 @@
 
 {% for person in site.data.eboard %}
 <div class="eboardMember">
+    {% if person.img %}
     <img class="headshot" src="{{site.url}}/images/people/{{person.img}}">
+    {% else %}
+    <img class="headshot" src="{{site.url}}/images/cosmo_astro.png">
+
+    {% endif %}
     {% if person.link %}
     <a style="text-align: top;color:#fff" href="{{person.link}}">
         <strong>{{person.name}}</strong> <br><em>{{person.title}}</em>

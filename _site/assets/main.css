@@ -16,6 +16,10 @@ eboardMember {
   display: flex;
   flex-direction: row; }
 
+.person-name {
+  font-size: 23px;
+  font-weight: 400; }
+
 header,
 main {
   padding: 0 20px; }

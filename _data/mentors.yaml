@@ -1,0 +1,27 @@
+- name: Josh Spicer
+  link: https://joshspicer.com 
+  major: Computer Science
+  year: 4th Year
+  huskyemail: spicer.jo
+  coops:
+    - Virtual Security Research
+    - Akamai
+    - Microsoft
+  skills: 
+    - react-native
+    - cyber security
+
+- name: Anuj Modi
+  link: http://anujmodi.com
+  major: CS + Cyber Ops (Math Minor)
+  year: 4th Year
+  huskyemail: modi.an
+  coops:
+    - MITRE
+    - ASICS Digital
+  skills:
+    - cyber
+    - sysadmin
+    - AWS
+    - Virtualization
+    - Networking

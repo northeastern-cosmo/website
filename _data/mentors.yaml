@@ -25,3 +25,16 @@
     - AWS
     - Virtualization
     - Networking
+
+- name: Chris Gomes
+  link: https://ccgomes.com/
+  major: Computer Science and Business Administration
+  year: 4th Year
+  huskyemail: gomes.chri
+  coops:
+    - Suffolk Construction
+    - Spotify
+  skills:
+    - Data Engineering
+    - Machine Learning
+    - Data Science

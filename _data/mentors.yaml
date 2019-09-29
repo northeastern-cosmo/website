@@ -1,33 +1,33 @@
 - name: Josh spicer
-  husky email: spicer.jo
+  huskyemail: spicer.jo
   major: computer science
   year: 4th year
-  link: joshspicer.com
+  link: https://joshspicer.com
   skills:
     - react native
     - cyber security
-  co-ops:
+  coops:
     - VSR
     - Akamai
     - Microsoft
 
 - name: Anuj Modi
-  husky email: modi.an
+  huskyemail: modi.an
   year: 4th year
   major: computer science + cyber ops (minor in math)
-  link: anujmodi.com
+  link: http://anujmodi.com
   skills:
     - cyber
     - sysadmin
     - AWS
     - virtualization
     - networking
-  co-ops:
+  coops:
     - MITRE
     - ASICS Digital
 
 - name: Katie Busemeyer
-  husky email: busemeyer.k
+  huskyemail: busemeyer.k
   year: 4th year
   major: computer science + cognitive psychology
   skills:
@@ -39,28 +39,28 @@
     - Tableau
     - SQL
     - Java
-  co-ops:
+  coops:
     - Rue La La
     - ezCater
     - Bank of America (internship)
 
 - name: Chris Gomes
-  husky email: gomes.chri
+  huskyemail: gomes.chri
   year: 4th year
   major: computer science + business administration
-  link: ccgomes.com
+  link: http://ccgomes.com
   skills:
     - python
     - scala
     - java
     - data science
     - machine learning
-  co-ops:
+  coops:
     - Suffolk Construction
     - Spotify
 
 - name: Isabel Bolger
-  husky email: bolger.i
+  huskyemail: bolger.i
   year: 3rd year
   major: computer science
   skills:
@@ -68,34 +68,34 @@
     - HTML
     - CSS
     - Java
-  co-ops:
+  coops:
     - Microsoft (internship)
     - co op at a gaming company in sf
 
 - name: Jalaj Singh
-  husky email: singh.ja
+  huskyemail: singh.ja
   year: 2nd year
   major: computer science
   skills:
     - java
     - neo4j
-  co-ops:
+  coops:
     - small data management company (internship)
 
 - name: Jakob Hain
-  husky email: Hain.j
+  huskyemail: Hain.j
   year: 3rd year
   major: computer science
-  link: github.com/jakobeha, jakobeha.github.io
+  link: http://jakobeha.github.io
   skills:
     - PL
     - functional programming
     - git
-  co-ops:
+  coops:
     - Research co-op at PRL
 
 - name: Jacob Aronoff
-  husky email: aronoff.j
+  huskyemail: aronoff.j
   year: 4th year
   major: computer science
   link:
@@ -105,11 +105,11 @@
     - cloud
     - backend
     - app dev
-  co-ops:
+  coops:
     - Datadog
     - Drift
 - name: Fiona McCrae
-  husky email: mccrae.f
+  huskyemail: mccrae.f
   year: 2nd year
   major:
     - Cybersecurity BS
@@ -123,7 +123,7 @@
     - confluence
 
 - name: Eli Kirmayer
-  husky email: kirmayer.e
+  huskyemail: kirmayer.e
   year: 4th year
   major: cs
   skills:
@@ -132,11 +132,11 @@
     - lil bit of R
     - some web frameworks
     - algorithms
-  co-ops:
+  coops:
     - Nvidia
 
 - name: David Tandetnik
-  husky email: tandetnik.da
+  huskyemail: tandetnik.da
   year: 4th year
   major: Computer Science
   link: https://github.com/dtxcode
@@ -144,13 +144,13 @@
     - back-end cloud development (AWS, GCP)
     - server architecture
     - server design (microservices, kubernetes)
-  co-ops:
+  coops:
     - Skillz
     - Mercari
     - Amazon (internship)
 
 - name: Zheng Fang
-  email: zackandaerith1@gmail.com
+  huskyemail: zackandaerith1@gmail.com
   year: Master's
   major: Computer Information
   skills:
@@ -160,7 +160,7 @@
     - SAS
 
 - name: Shane Timmerman
-  email: shanetimmerman@gmail.com
+  huskyemail: shanetimmerman@gmail.com
   year: 4th year
   major: computer science + biology
   link: https://github.com/shanetimmerman
@@ -188,34 +188,34 @@
     - kafka
     - kubernetes
     - helm
-  co-ops:
+  coops:
     - Wayfair
     - FluidScreen
 
 - name: Victoria Yang
-  husky email: yang.wenhu
+  huskyemail: yang.wenhu
   year: 5th year
   major: computer science + business
   skills:
     - java
     - python
     - ruby on rails
-  co-ops:
+  coops:
     - Workday
     - Morgan Stanley (internship)
     - Coinbase
     - startup (product management internship)
 
 - name: Mohini Limbodia
-  husky email: limbodia.m
+  huskyemail: limbodia.m
   year: Master's
   major: computer science
   skills:
-  co-ops:
+  coops:
     - currently doing a co-op
 
 - name: Nate Hofmann
-  husky email: hofmann.n
+  huskyemail: hofmann.n
   year: 3rd year
   major: computer science (minor in Economics)
   skills:
@@ -226,11 +226,11 @@
     - bash
     - javaFX
     - python imaging library
-  co-ops:
+  coops:
     - Draper Laboratory
 
 - name: Makena Oda
-  husky email: oda.m
+  huskyemail: oda.m
   year: 2nd year
   major: computer science and criminal justice
   link: https://github.com/makenaoda
@@ -241,7 +241,7 @@
     - adobe photoshop and illustrator
 
 - name: Nickhil Tekwani
-  husky email: tekwani.n
+  huskyemail: tekwani.n
   year: 2nd year
   major: computer science + communication studies
   skills:
@@ -250,15 +250,15 @@
     - git
     - SQL
     - tableau
-  co-ops:
+  coops:
     - Cloudera
     - Optum (internship)
 
 - name: Felicia Zhang
-  husky email: zhang.fel
+  huskyemail: zhang.fel
   year: 4th year
   major: computer engineering + computer science
-  link: feliciazhang.github.io
+  link: http://feliciazhang.github.io
   skills:
     - web dev
       - react/redux
@@ -266,7 +266,7 @@
       - JS
       - TS
     - electronics
-  co-ops:
+  coops:
     - Drift
     - Google
     - Carbonite

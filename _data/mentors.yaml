@@ -44,6 +44,27 @@
     - ezCater
     - Bank of America (internship)
 
+- name: Jenn Der
+  huskyemail: der.je
+  year: 4th year
+  major: computer science + media arts
+  link: http://jennder.github.io
+  skills:
+    - python
+    - aws
+    - elastic
+    - api dev
+    - ruby
+    - sql
+    - racket
+    - javascript/typescript (angular)
+    - java
+    - adobe (photoshop, illustrator, bridge, lightroom, premiere)
+    - cpp (graphics)
+  coops:
+    - Kyruus
+    - Massachusetts Medical Society
+
 - name: Chris Gomes
   huskyemail: gomes.chri
   year: 4th year
@@ -58,6 +79,23 @@
   coops:
     - Suffolk Construction
     - Spotify
+
+- name: Ray Huang
+  huskyemail: huang.ra
+  year: 4th year
+  major: computer science + media arts
+  skills:
+    - virtual reality/augmented reality (VR/AR)
+    - game dev
+    - front-end
+    - web dev 
+    - react
+    - graphics
+    - 3d modeling/art
+  coops:
+    - Facebook
+    - Pison
+    - Intuit
 
 - name: Isabel Bolger
   huskyemail: bolger.i

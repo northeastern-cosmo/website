@@ -103,19 +103,31 @@ footer {
   line-height: 0.6em;
   padding: 0 5px; }
 
+.mentorGridContainer {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  padding: 0 20px; }
+
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
 @media (min-width: 480px) {
   /* wrapper stays 480px wide past 480px wide and is kept centered */
   .wrapper {
     width: 480px;
-    margin: 10% auto 0 auto; } }
+    margin: 10% auto 0 auto; }
+
+  /* Use two columns in grid if screen is at least 480px wide*/
+  .mentorGridContainer {
+    grid-template-columns: auto auto; } }
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
   /* past 768px the layout is changed and the wrapper has a fixed width of 680px
   to accomodate both the header column and the content column */
   .wrapper {
-    width: 680px; }
+    width: 680px;
+    height: 500px; }
 
   /* the header column stays left and has a dynamic width with all contents
   aligned right */
@@ -132,4 +144,7 @@ footer {
   main {
     width: 60%;
     margin-left: 54%;
-    padding: 0; } }
+    height: 100%; }
+
+  #mentors-title {
+    font-size: 50px; } }

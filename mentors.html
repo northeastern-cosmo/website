@@ -22,13 +22,18 @@ layout: base
     </div>
     {% endif %}
   </header>
+
   <main>
     {% if site.compass.include_content %}
     <div class="content">
       {% include nav.html%}
-      {% include mentors.html %}
-      {% include socials.html%}
+      <h2 id="mentors-title">Fall 2019 Mentors</h2>
     </div>
     {% endif %}
   </main>
+
+  <div class="centered-content">
+    {% include mentors.html %}
+    {% include socials.html%}
+  </div>
 </div>

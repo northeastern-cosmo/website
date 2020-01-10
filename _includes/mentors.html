@@ -1,41 +1,36 @@
-<h2>Mentors</h2>
-
-{% for person in site.data.mentors %}
-<div class="eboardMember">
-
-
-    <!-- Name -->
-    {% if person.link %}
-    <a style="text-align: top;color:#fff" href="{{person.link}}">
+<div class="mentorGridContainer">
+    {% for person in site.data.mentors %}
+    <div class="mentor">
+        <!-- Name -->
+        {% if person.link %}
+        <a style="text-align: top;color:#fff" href="{{person.link}}">
+            <span class="person-name">{{person.name}}</span>
+        </a>
+        {% else %}
         <span class="person-name">{{person.name}}</span>
-    </a>
-    {% else %}
-    <span class="person-name">{{person.name}}</span>
-    {% endif %}
-    <br>
-    <span class="person-major">{{person.major}}</span>
-    <br><br>
-    <!-- Stats -->
-    <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;{{person.huskyemail}} <br>
-    <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;{{person.year}}
-    <br><br>
+        {% endif %}
+        <br>
+        <span class="person-major">{{person.major}}</span>
+        <br><br>
+        <!-- Stats -->
+        <i class="fa fa-envelope-o" aria-hidden="true"></i>&nbsp;&nbsp;{{person.huskyemail}} <br>
+        <i class="fa fa-clock-o" aria-hidden="true"></i>&nbsp;&nbsp;{{person.year}}
+        <br><br>
 
-    <!-- Skills -->
-    <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;&nbsp;<b>Skills</b><br>
-    {% for skill in person.skills %}
-    - {{skill}}<br>
+        <!-- Skills -->
+        <i class="fa fa-lightbulb-o" aria-hidden="true"></i>&nbsp;&nbsp;<b>Skills</b><br>
+        {% for skill in person.skills %}
+        - {{skill}}<br>
+        {% endfor %}
+        <br>
+        <!-- Co-ops -->
+        <i class="fa  fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;<b>Co-ops</b><br>
+        {% for coop in person.coops %}
+        - {{coop}}<br>
+        {% endfor %}
+    </div>
     {% endfor %}
-    <br>
-    <!-- Co-ops -->
-    <i class="fa  fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;<b>Co-ops</b><br>
-    {% for coop in person.coops %}
-    - {{coop}}<br>
-    {% endfor %}
-
-
 </div>
-<br><br><br>
-{% endfor %}
 
 <br><br><br>
 <em>...complete <a href="https://forms.gle/fw7E7p4NS6vszeuQ6">this form</a> to be added as a mentor!</em>

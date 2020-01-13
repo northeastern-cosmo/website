@@ -1,27 +1,24 @@
 # Photos live in /images/people/...
 # link is optional.
 
-- name: Josh Spicer
-  img: josh.png
-  link: https://joshspicer.com
-  title: President & Founder
+- name: Chris Gomes
+  title: President
 
-- name: Katie Busemeyer
+- name: David Tandetnik
   title: Mentorship Chair
 
-- name: Ray Huang
-  title: Events + Program Manager
+- name: Fiona McCrae
+  title: Events Coordinater
 
-- name: Jenn Der
-  img: jenn.jpg
-  title: Design + Secretary 
-  
-- name: Chris Gomes
-  img: chris.jpeg
-  link: https://ccgomes.com
+- name: Nate Hofmann
   title: Treasurer
 
-- name: Colin Mullaney
-  img: colin.jpg
-  title: Founder (graduated)
+- name: Jaron Hylton
+  title: Secretary + Design
+
+- name: Brandon Liang
+  title: Project Lead
+
+
+  
 

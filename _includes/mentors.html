@@ -24,10 +24,20 @@
         {% endfor %}
         <br>
         <!-- Co-ops -->
-        <i class="fa  fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;<b>Co-ops</b><br>
+        <i class="fa  fa-building-o" aria-hidden="true"></i>&nbsp;&nbsp;<b>Work Experience</b><br>
         {% for coop in person.coops %}
         - {{coop}}<br>
         {% endfor %}
+
+        <!-- Abroad -->
+        {% if person.abroad %}
+        <br>
+        {% for abroad in person.abroad %}
+        <i class="fa fa-globe" aria-hidden="true"></i>&nbsp;&nbsp;<b>Global Experience</b><br>
+        - {{abroad}}
+        {% endfor %}
+        {% endif %}
+
     </div>
     {% endfor %}
 </div>

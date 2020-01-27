@@ -108,7 +108,6 @@
     - Software Developer Co-op at Exabeam
   abroad:
     - Dialogue of Civilizations in Barcelona, Spain
-
     
 - name: Jaana Tabalon
   huskyemail: tabalon.j
@@ -123,3 +122,18 @@
     - Software Co-op at Keurig Dr Pepper Inc
   abroad:
     - Photography, Design, and German Culture Dialogue in Berlin, Germany
+
+- name: Chris Gomes
+  huskyemail: gomes.chri
+  major: Computer Science and Business Administration (Finance Concentration)
+  year: 4th year
+  link: https://ccgomes.com
+  skills:
+    - Scala, Python, Java
+    - Google Cloud Platform
+    - Data Science
+    - Machine Learning
+    - Data Engineering
+  coops:
+      - Data Analytics Co-op at Suffolk Construction
+      - Data Engineering Internship at Spotify

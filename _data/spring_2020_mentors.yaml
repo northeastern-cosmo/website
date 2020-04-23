@@ -12,20 +12,19 @@
     - Back-end Engineer at Mercari
     - Full-stack Engineer at Amazon
 
-- name: Chris Gomes
-  huskyemail: gomes.chri
-  major: Computer Science and Business Administration (Finance Concentration)
+- name: Anuj Modi
+  huskyemail: modi.an
+  major: Computer Science (Concentration in Cyber Operations), Minor in Math
   year: 4th year
-  link: https://ccgomes.com
+  link: https://anujmodi.com
   skills:
-    - Scala, Python, Java
-    - Google Cloud Platform
-    - Data Science
-    - Machine Learning
-    - Data Engineering
+    - Security
+    - AWS/Cloud
+    - Devops
   coops:
-    - Data Analytics Co-op at Suffolk Construction
-    - Data Engineering Internship at Spotify
+    - MITRE
+    - ASICS Digital
+    - Cybersecurity and Privacy institute (Research) 
 
 - name: Isabel Bolger
   huskyemail: bolger.i
@@ -57,6 +56,23 @@
     - Product Management/Customer Success Co-op at mabl
     - Technical Program Management Intern at Google 
 
+- name: Rucha Khanolkar
+  huskyemail: khanolkar.r
+  major: Computer Science and Interaction Design
+  year: 4th year
+  link: http://www.ruchakhanolkar.com/
+  skills:
+    - Java, Javascript, Python
+    - React
+    - Git
+    - Invision
+    - Sketch
+    - Adobe XD
+    - Adobe Suite 
+  coops:
+    - IT Co-op at Charles River Development
+    - Software Engineer Co-op at Decibel Therapeutics 
+
 - name: Andrei Lougovtsov
   huskyemail: lougovtsov.an
   major: Computer Science and Business Administration (Finance Concentration)
@@ -74,6 +90,25 @@
     - Back-end/Data Engineer at Wayfair
     - Intern/Contractor at Edmit, Cuseum, and Surge.ly 
 
+- name: Eric Stern
+  huskyemail: stern.er
+  major: Computer Science and Business Administration (Accounting Concentration)
+  year: 4th year
+  link: https://github.ccs.neu.edu/estern
+  skills:
+    - Java, Python, Scala
+    - Git
+    - Docker
+    - PyCharm, IntelliJ
+    - MySQL, MongoDB
+    - Linux
+    - Android Studio
+  coops:
+    - Android Developer Co-op at Rue Gilt Groupe
+    - Software Developer Co-op at Exabeam
+  abroad:
+    - Dialogue of Civilizations in Barcelona, Spain
+    
 - name: Jaana Tabalon
   huskyemail: tabalon.j
   major: Computer Science and Design
@@ -87,3 +122,18 @@
     - Software Co-op at Keurig Dr Pepper Inc
   abroad:
     - Photography, Design, and German Culture Dialogue in Berlin, Germany
+
+- name: Chris Gomes
+  huskyemail: gomes.chri
+  major: Computer Science and Business Administration (Finance Concentration)
+  year: 4th year
+  link: https://ccgomes.com
+  skills:
+    - Scala, Python, Java
+    - Google Cloud Platform
+    - Data Science
+    - Machine Learning
+    - Data Engineering
+  coops:
+    - Data Analytics Co-op at Suffolk Construction
+    - Data Engineering Internship at Spotify

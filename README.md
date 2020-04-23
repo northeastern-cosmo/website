@@ -1,6 +1,28 @@
-# nuCoSMO
+# NU CoSMO
 
 This repo serves as the homepage for Northeastern University's CS Mentoring Club (CoSMO).
+
+## Usage
+
+This site uses the static site generator `Jeykll`. Please install it in order to develop this website.
+
+Jekyll works by taking a template that you write and generating HTML and CSS from it. If you're trying to modify the site,
+you'll want to start at the root level files:
+  - index.html
+  - eboard.html
+  - mentors.html
+  - contact.html
+
+You'll notice they contain lines like `{% include mentors.html %}`. That line imports sections of the site from the `_includes` directory.
+You'll likely find what you need to change in there. `_includes` may in turn access yaml data files in `_data`. Finally, to change CSS,
+look at the `assets` folder.
+
+After editing these files, run the Jekyll command to generate the site (e.g. `jekyll serve`). You'll be able to navigate to a local version
+of the new website in your browser, likely at `localhost:4000`.
+
+*Important: When you're ready to commit your changes to master, be sure to include the `_site` folder. This is the code that Jekyll generates.*
+
+ Note that you should never need to edit the `_site` folder yourself.
 
 ## Adding events
 

@@ -20,10 +20,6 @@ look at the `assets` folder.
 After editing these files, run the Jekyll command to generate the site (e.g. `jekyll serve`). You'll be able to navigate to a local version
 of the new website in your browser, likely at `localhost:4000`.
 
-*Important: When you're ready to commit your changes to master, be sure to include the `_site` folder. This is the code that Jekyll generates.*
-
- Note that you should never need to edit the `_site` folder yourself.
-
 ### Mac Setup
 
 [Jekyll](https://jekyllrb.com/) is a Ruby gem.  Different macOS versions ship with different versions of Ruby, so to be safe just install [homebrew's](brew.sh) Ruby. 

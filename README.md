@@ -41,6 +41,7 @@ cd northeastern-cosmo.github.io
 brew install ruby
 
 # Add brew's Ruby to your path
+# Note: Assumes your `echo $SHELL` == /bin/zsh. If your shell is bash, replace with ~/.bashrc
 echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.zshrc
 
 # Install Jekyll and other dependencies (may take a few minutes)

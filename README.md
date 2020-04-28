@@ -4,7 +4,7 @@ This repo serves as the homepage for Northeastern University's CS Mentoring Club
 
 ## Usage
 
-This site uses the static site generator `Jeykll`. Please install it in order to develop this website.
+This site uses the static site generator `Jekyll`. Please install it in order to develop this website.
 
 Jekyll works by taking a template that you write and generating HTML and CSS from it. If you're trying to modify the site,
 you'll want to start at the root level files:

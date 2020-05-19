@@ -1,24 +1,56 @@
 # Photos live in /images/people/...
 # link is optional.
 
-- name: Chris Gomes
-  title: President
+# To Archive:
+# 1. Rename the "current" array set to whatever season they were e-board (ex: f19 == Fall 2019).
+# 2. Add a reference to the now archived e-board in past_eboard.html
+#     Example:   {% include eboard-template.html people="f19" }
+#     This will add the previous eboard to the list under /eboard/past
 
-- name: David Tandetnik
-  title: Mentorship Chair
+# 4. Create a new "current" array
+# 5. Add current eboard to "current"
+#    These people will now show up under /eboard
 
-- name: Fiona McCrae
-  title: Events Coordinater
+current:
+  - name: Chris Gomes
+    title: President
 
-- name: Nate Hofmann
-  title: Treasurer
+  - name: David Tandetnik
+    title: Mentorship Chair
 
-- name: Jaron Hylton
-  title: Secretary + Design
+  - name: Fiona McCrae
+    title: Events Coordinater
 
-- name: Brandon Liang
-  title: Project Lead
+  - name: Nate Hofmann
+    title: Treasurer
 
+  - name: Jaron Hylton
+    title: Secretary + Design
 
-  
+  - name: Brandon Liang
+    title: Project Lead
 
+f19:
+  - name: Josh Spicer
+    img: josh.png
+    link: https://joshspicer.com
+    title: President & Founder
+
+  - name: Katie Busemeyer
+    title: Mentorship Chair
+
+  - name: Ray Huang
+    title: Events + Program Manager
+
+  - name: Jenn Der
+    img: jenn.jpg
+    title: Design + Secretary
+
+  - name: Chris Gomes
+    img: chris.jpeg
+    link: https://ccgomes.com
+    title: Treasurer
+
+  - name: Colin Mullaney
+    img: colin.jpg
+    title: Founder (graduated)

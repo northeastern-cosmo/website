@@ -2,44 +2,44 @@
 ---
 
 $text-color: #fff4f4;
-$anchor-text-color: #2A879E;
+$anchor-text-color: #2a879e;
 $background-color: #383838;
 
 body {
-	font-family: 'Montserrat', serif;
-	color: $text-color;
-	background-color: $background-color;
+  font-family: "Montserrat", serif;
+  color: $text-color;
+  background-color: $background-color;
 }
 
 .addColor {
-	color: $anchor-text-color;
+  color: $anchor-text-color;
 }
 
 .headshot {
-	width: 45px;
-	height: 45px;
-	border-radius: 50%;
-	margin-bottom: 0px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-bottom: 0px;
 }
 
 eboardMember {
-	display: flex;
-	flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .person-name {
-	font-size: 23px;
-	font-weight: 400;
+  font-size: 23px;
+  font-weight: 400;
 }
 
 header,
 main {
-	padding: 0 20px;
+  padding: 0 20px;
 }
 
 /*** wrapper div for both header and main ***/
 .wrapper {
-	margin-top: 10%;
+  margin-top: 10%;
 }
 
 /*** anchor tags ***/
@@ -47,145 +47,173 @@ a:link,
 a:visited,
 a:hover,
 a:active {
-	color: $anchor-text-color;
-	text-decoration: none;
+  color: $anchor-text-color;
+  text-decoration: none;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
-
 
 /*** main content list ***/
 .main-list-item {
-	font-weight: bold;
-	font-size: 1.2em;
-	margin: 0.8em 0;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0.8em 0;
 }
 
 /* override the left margin added by font awesome for the main content list,
 since it must be aligned with the content */
 .fa-ul.main-list {
-	margin-left: 0;
+  margin-left: 0;
 }
 
 /* list icons */
 .main-list-item-icon {
-	width: 36px;
-	color: $text-color;
+  width: 36px;
+  color: $text-color;
 }
 
 /*** logo ***/
 .logo-container {
-	text-align: center;
+  text-align: center;
 }
 
 .logo {
-	width: 250px;
-	height: 250px;
-	display: inline-block;
-	background-size: cover;
-	border-radius: 50%;
-	// -moz-border-radius: 50%;
-	// box-shadow: 0 0 0 3px $text-color;
-	margin: 5px;
-	padding: 5px;
+  width: 250px;
+  height: 250px;
+  display: inline-block;
+  background-size: cover;
+  border-radius: 50%;
+  // -moz-border-radius: 50%;
+  // box-shadow: 0 0 0 3px $text-color;
+  margin: 5px;
+  padding: 5px;
 }
 
 /*** author ***/
 .author-container h1 {
-	font-size: 2.8em;
-	margin-top: 0;
-	margin-bottom: 0;
-	text-align: center;
+  font-size: 2.8em;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 /*** tagline ***/
 .tagline-container p {
-	font-size: 1.3em;
-	text-align: center;
-	margin-bottom: 2em;
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 2em;
 }
 
 /******/
 hr {
-	border: 0;
-	height: 1px;
-	background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -moz-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -ms-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
-	background-image: -o-linear-gradient(left, rgba(0,0,0,0), $text-color, rgba(0,0,0,0));
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    $text-color,
+    rgba(0, 0, 0, 0)
+  );
+  background-image: -moz-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    $text-color,
+    rgba(0, 0, 0, 0)
+  );
+  background-image: -ms-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    $text-color,
+    rgba(0, 0, 0, 0)
+  );
+  background-image: -o-linear-gradient(
+    left,
+    rgba(0, 0, 0, 0),
+    $text-color,
+    rgba(0, 0, 0, 0)
+  );
 }
 
 /*** footer ***/
 footer {
-	position: fixed;
-	bottom: 0;
-	right: 0;
-	height: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  height: 20px;
 }
 
 .poweredby {
-	font-family: "Arial Narrow", Arial;
-	font-size: 0.6em;
-	line-height: 0.6em;
-	padding: 0 5px;
+  font-family: "Arial Narrow", Arial;
+  font-size: 0.6em;
+  line-height: 0.6em;
+  padding: 0 5px;
 }
 
 // Grid for mentors
 .mentorGridContainer {
-	display: grid;
-	grid-template-columns: auto;  
-	grid-template-rows: auto;
-	grid-gap: 40px;
-	padding: 0 20px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 40px;
+  padding: 0 20px;
 }
 
 /*** media queries ***/
 /* X-Small devices (phones, 480px and up) */
 @media (min-width: 480px) {
-	/* wrapper stays 480px wide past 480px wide and is kept centered */
-	.wrapper {
-		width: 480px;
-		margin: 10% auto 0 auto;
-	}
+  /* wrapper stays 480px wide past 480px wide and is kept centered */
+  .wrapper {
+    width: 480px;
+    margin: 10% auto 0 auto;
+  }
 
-	/* Use two columns in grid if screen is at least 480px wide*/
-	.mentorGridContainer {
-		grid-template-columns: auto auto;  
-	}
+  /* Use two columns in grid if screen is at least 480px wide*/
+  .mentorGridContainer {
+    grid-template-columns: auto auto;
+  }
 }
 
 /* All other devices (768px and up) */
 @media (min-width: 768px) {
-	/* past 768px the layout is changed and the wrapper has a fixed width of 680px
+  /* past 768px the layout is changed and the wrapper has a fixed width of 680px
 	to accomodate both the header column and the content column */
-	.wrapper {
-		width: 850px;
-		height: 500px;
-	}
+  .wrapper {
+    width: 850px;
+    height: 500px;
+  }
 
-	/* the header column stays left and has a dynamic width with all contents
+  /* the header column stays left and has a dynamic width with all contents
 	aligned right */
-	header {
-		float: left;
-		width: 46%;
-		text-align: right;
-	}
+  header {
+    float: left;
+    width: 46%;
+    text-align: right;
+  }
 
-	.author-container h1,
-	.logo-container,
-	.tagline-container p {
-		text-align: right;
-	}
+  .author-container h1,
+  .logo-container,
+  .tagline-container p {
+    text-align: right;
+  }
 
-	main {
-		width: 60%;
-		margin-left: 54%;
-		height: 100%;
-	}
+  main {
+    width: 60%;
+    margin-left: 54%;
+    height: 100%;
+  }
 
-	#mentors-title {
-		font-size: 50px;
-	}
+  #mentors-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  #mentors-details {
+    text-align: center;
+  }
+
+  .prev-button {
+    padding-top: 40px;
+    font-size: small;
+  }
 }

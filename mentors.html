@@ -27,15 +27,19 @@ layout: base
     {% if site.compass.include_content %}
     <div class="content">
       {% include nav.html%}
-      <h2 id="mentors-title">Come back in Fall 2020 for the next round of mentors!</h2>
-      <h2 style="font-weight:normal">Need help in the meantime? Feel free to reach out to these spring mentors over the
-        summer.</h2>
+      <h4 id="mentors-title">Come back in Fall 2020 for the next round of mentors!</h4>
+      <p id="mentors-details">Need help in the meantime? Feel free to reach out to these spring mentors over
+        the
+        summer.
+      </p>
     </div>
     {% endif %}
   </main>
 
   <div class=" centered-content">
-    {% include mentors.html %}
-    {% include socials.html%}
+    {% include mentors-template.html people="current" %}
+    <a class="prev-button" href="./past"> &lt; Previous Mentors</a>
+
+    {% include socials.html %}
   </div>
 </div>

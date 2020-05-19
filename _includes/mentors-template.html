@@ -1,5 +1,7 @@
+{% assign mentors  = site.data.mentors[{{include.people}}] %}
+
 <div class="mentorGridContainer">
-    {% for person in site.data.mentors %}
+    {% for person in mentors %}
     <div class="mentor">
         <!-- Name -->
         {% if person.link %}
@@ -40,6 +42,7 @@
 
     </div>
     {% endfor %}
+
 </div>
 
 <br><br><br>

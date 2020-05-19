@@ -1,89 +1,553 @@
-- name: David Tandetnik
-  huskyemail: tandetnik.da
-  major: Computer Science
-  year: 4th year
-  link: https://github.com/dtxcode
-  skills:
-    - Back-end development
-    - Cloud development (AWS, GCP)
-    - Server architecture and design (Microservices, Kubernetes)
-  coops:
-    - Server Engineer at Skillz
-    - Back-end Engineer at Mercari
-    - Full-stack Engineer at Amazon
+# To Archive:
+# 1. Rename the "current" array set to whatever season these people were mentors (ex: f19 == Fall 2019).
+# 2. Add a reference to the now archived mentors in past_mentors.html
+#     Example:   {% include mentor-template.html people="f19" }
+#     This will add the previous eboard to the list under /mentors/past
 
-- name: Chris Gomes
-  huskyemail: gomes.chri
-  major: Computer Science and Business Administration (Finance Concentration)
-  year: 4th year
-  link: https://ccgomes.com
-  skills:
-    - Scala, Python, Java
-    - Google Cloud Platform
-    - Data Science
-    - Machine Learning
-    - Data Engineering
-  coops:
-    - Data Analytics Co-op at Suffolk Construction
-    - Data Engineering Internship at Spotify
+# 3. Create a new "current" array
+# 4. Add current list of mentors to "current"
+#    These people will now show up under /mentor
 
-- name: Isabel Bolger
-  huskyemail: bolger.i
-  major: Computer Science
-  year: 3rd year
-  link: https://github.com/isa3bel
-  skills:
-    - React Native
-    - Git
-    - Crossover between art and tech
-  coops:
-    - Mobile Engineer at Skillz
-    - Full-stack/Front-end Developer at Microsoft (Word, Azure, Powerpoint)
-  abroad:
-    - NUin in Greece
+current:
+  - name: David Tandetnik
+    huskyemail: tandetnik.da
+    major: Computer Science
+    year: 4th year
+    link: https://github.com/dtxcode
+    skills:
+      - Back-end development
+      - Cloud development (AWS, GCP)
+      - Server architecture and design (Microservices, Kubernetes)
+    coops:
+      - Server Engineer at Skillz
+      - Back-end Engineer at Mercari
+      - Full-stack Engineer at Amazon
 
-- name: Mounica Kamesam
-  huskyemail: kamesam.m
-  major: Computer Science
-  year: 4th year
-  skills:
-    - Java, C/C++
-    - React
-    - SQL
-    - Git
-    - Product Management
-    - Data Analysis
-  coops:
-    - Product Management/Customer Success Co-op at mabl
-    - Technical Program Management Intern at Google 
+  - name: Chris Gomes
+    huskyemail: gomes.chri
+    major: Computer Science and Business Administration (Finance Concentration)
+    year: 4th year
+    link: https://ccgomes.com
+    skills:
+      - Scala, Python, Java
+      - Google Cloud Platform
+      - Data Science
+      - Machine Learning
+      - Data Engineering
+    coops:
+      - Data Analytics Co-op at Suffolk Construction
+      - Data Engineering Internship at Spotify
 
-- name: Andrei Lougovtsov
-  huskyemail: lougovtsov.an
-  major: Computer Science and Business Administration (Finance Concentration)
-  year: 3rd year
-  link: https://github.com/alougov1
-  skills:
-    - Python, Java
-    - Algorithms
-    - Data Structures
-    - OOP
-    - SQL and database design
-    - Pandas (Python)
-  coops:
-    - Full-stack/Back-end Developer at ThriveHive 
-    - Back-end/Data Engineer at Wayfair
-    - Intern/Contractor at Edmit, Cuseum, and Surge.ly 
+  - name: Isabel Bolger
+    huskyemail: bolger.i
+    major: Computer Science
+    year: 3rd year
+    link: https://github.com/isa3bel
+    skills:
+      - React Native
+      - Git
+      - Crossover between art and tech
+    coops:
+      - Mobile Engineer at Skillz
+      - Full-stack/Front-end Developer at Microsoft (Word, Azure, Powerpoint)
+    abroad:
+      - NUin in Greece
 
-- name: Jaana Tabalon
-  huskyemail: tabalon.j
-  major: Computer Science and Design
-  year: 2nd year
-  skills:
-    - Java
-    - HTML/CSS
-    - SQL
-    - Adobe Creative Suite
-  coops:
-    - Software Co-op at Keurig Dr Pepper Inc
-  abroad:
-    - Photography, Design, and German Culture Dialogue in Berlin, Germany
+  - name: Mounica Kamesam
+    huskyemail: kamesam.m
+    major: Computer Science
+    year: 4th year
+    skills:
+      - Java, C/C++
+      - React
+      - SQL
+      - Git
+      - Product Management
+      - Data Analysis
+    coops:
+      - Product Management/Customer Success Co-op at mabl
+      - Technical Program Management Intern at Google
+
+  - name: Andrei Lougovtsov
+    huskyemail: lougovtsov.an
+    major: Computer Science and Business Administration (Finance Concentration)
+    year: 3rd year
+    link: https://github.com/alougov1
+    skills:
+      - Python, Java
+      - Algorithms
+      - Data Structures
+      - OOP
+      - SQL and database design
+      - Pandas (Python)
+    coops:
+      - Full-stack/Back-end Developer at ThriveHive
+      - Back-end/Data Engineer at Wayfair
+      - Intern/Contractor at Edmit, Cuseum, and Surge.ly
+
+  - name: Jaana Tabalon
+    huskyemail: tabalon.j
+    major: Computer Science and Design
+    year: 2nd year
+    skills:
+      - Java
+      - HTML/CSS
+      - SQL
+      - Adobe Creative Suite
+    coops:
+      - Software Co-op at Keurig Dr Pepper Inc
+    abroad:
+      - Photography, Design, and German Culture Dialogue in Berlin, Germany
+
+s20:
+  - name: David Tandetnik
+    huskyemail: tandetnik.da
+    major: Computer Science
+    year: 4th year
+    link: https://github.com/dtxcode
+    skills:
+      - Back-end development
+      - Cloud development (AWS, GCP)
+      - Server architecture and design (Microservices, Kubernetes)
+    coops:
+      - Server Engineer at Skillz
+      - Back-end Engineer at Mercari
+      - Full-stack Engineer at Amazon
+
+  - name: Anuj Modi
+    huskyemail: modi.an
+    major: Computer Science (Concentration in Cyber Operations), Minor in Math
+    year: 4th year
+    link: https://anujmodi.com
+    skills:
+      - Security
+      - AWS/Cloud
+      - Devops
+    coops:
+      - MITRE
+      - ASICS Digital
+      - Cybersecurity and Privacy institute (Research)
+
+  - name: Isabel Bolger
+    huskyemail: bolger.i
+    major: Computer Science
+    year: 3rd year
+    link: https://github.com/isa3bel
+    skills:
+      - React Native
+      - Git
+      - Crossover between art and tech
+    coops:
+      - Mobile Engineer at Skillz
+      - Full-stack/Front-end Developer at Microsoft (Word, Azure, Powerpoint)
+    abroad:
+      - NUin in Greece
+
+  - name: Mounica Kamesam
+    huskyemail: kamesam.m
+    major: Computer Science
+    year: 4th year
+    skills:
+      - Java, C/C++
+      - React
+      - SQL
+      - Git
+      - Product Management
+      - Data Analysis
+    coops:
+      - Product Management/Customer Success Co-op at mabl
+      - Technical Program Management Intern at Google
+
+  - name: Rucha Khanolkar
+    huskyemail: khanolkar.r
+    major: Computer Science and Interaction Design
+    year: 4th year
+    link: http://www.ruchakhanolkar.com/
+    skills:
+      - Java, Javascript, Python
+      - React
+      - Git
+      - Invision
+      - Sketch
+      - Adobe XD
+      - Adobe Suite
+    coops:
+      - IT Co-op at Charles River Development
+      - Software Engineer Co-op at Decibel Therapeutics
+
+  - name: Andrei Lougovtsov
+    huskyemail: lougovtsov.an
+    major: Computer Science and Business Administration (Finance Concentration)
+    year: 3rd year
+    link: https://github.com/alougov1
+    skills:
+      - Python, Java
+      - Algorithms
+      - Data Structures
+      - OOP
+      - SQL and database design
+      - Pandas (Python)
+    coops:
+      - Full-stack/Back-end Developer at ThriveHive
+      - Back-end/Data Engineer at Wayfair
+      - Intern/Contractor at Edmit, Cuseum, and Surge.ly
+
+  - name: Eric Stern
+    huskyemail: stern.er
+    major: Computer Science and Business Administration (Accounting Concentration)
+    year: 4th year
+    link: https://github.ccs.neu.edu/estern
+    skills:
+      - Java, Python, Scala
+      - Git
+      - Docker
+      - PyCharm, IntelliJ
+      - MySQL, MongoDB
+      - Linux
+      - Android Studio
+    coops:
+      - Android Developer Co-op at Rue Gilt Groupe
+      - Software Developer Co-op at Exabeam
+    abroad:
+      - Dialogue of Civilizations in Barcelona, Spain
+
+  - name: Jaana Tabalon
+    huskyemail: tabalon.j
+    major: Computer Science and Design
+    year: 2nd year
+    skills:
+      - Java
+      - HTML/CSS
+      - SQL
+      - Adobe Creative Suite
+    coops:
+      - Software Co-op at Keurig Dr Pepper Inc
+    abroad:
+      - Photography, Design, and German Culture Dialogue in Berlin, Germany
+
+  - name: Chris Gomes
+    huskyemail: gomes.chri
+    major: Computer Science and Business Administration (Finance Concentration)
+    year: 4th year
+    link: https://ccgomes.com
+    skills:
+      - Scala, Python, Java
+      - Google Cloud Platform
+      - Data Science
+      - Machine Learning
+      - Data Engineering
+    coops:
+      - Data Analytics Co-op at Suffolk Construction
+      - Data Engineering Internship at Spotify
+
+f19:
+  - name: Josh Spicer
+    huskyemail: spicer.jo
+    major: computer science
+    year: 4th year
+    link: https://joshspicer.com
+    skills:
+      - react native
+      - cyber security
+    coops:
+      - VSR
+      - Akamai
+      - Microsoft
+
+  - name: Anuj Modi
+    huskyemail: modi.an
+    year: 4th year
+    major: computer science + cyber ops (minor in math)
+    link: http://anujmodi.com
+    skills:
+      - cyber
+      - sysadmin
+      - AWS
+      - virtualization
+      - networking
+    coops:
+      - MITRE
+      - ASICS Digital
+
+  - name: Katie Busemeyer
+    huskyemail: busemeyer.k
+    year: 4th year
+    major: computer science + cognitive psychology
+    skills:
+      - react
+      - JS
+      - HTML
+      - CSS
+      - Ruby on Rails
+      - Tableau
+      - SQL
+      - Java
+    coops:
+      - Rue La La
+      - ezCater
+      - Bank of America (internship)
+
+  - name: Jenn Der
+    huskyemail: der.je
+    year: 4th year
+    major: computer science + media arts
+    link: http://jennder.github.io
+    skills:
+      - python
+      - aws
+      - elastic
+      - api dev
+      - ruby
+      - sql
+      - racket
+      - javascript/typescript (angular)
+      - java
+      - adobe (photoshop, illustrator, bridge, lightroom, premiere)
+      - cpp (graphics)
+    coops:
+      - Kyruus
+      - Massachusetts Medical Society
+
+  - name: Chris Gomes
+    huskyemail: gomes.chri
+    year: 4th year
+    major: computer science + business administration
+    link: http://ccgomes.com
+    skills:
+      - python
+      - scala
+      - java
+      - data science
+      - machine learning
+    coops:
+      - Suffolk Construction
+      - Spotify
+
+  - name: Ray Huang
+    huskyemail: huang.ra
+    year: 4th year
+    major: computer science + media arts
+    skills:
+      - virtual reality/augmented reality (VR/AR)
+      - game dev
+      - front-end
+      - web dev
+      - react
+      - graphics
+      - 3d modeling/art
+    coops:
+      - Facebook
+      - Pison
+      - Intuit
+
+  - name: Isabel Bolger
+    huskyemail: bolger.i
+    year: 3rd year
+    major: computer science
+    skills:
+      - git
+      - HTML
+      - CSS
+      - Java
+    coops:
+      - Microsoft (internship)
+      - co op at a gaming company in sf
+
+  - name: Jalaj Singh
+    huskyemail: singh.ja
+    year: 2nd year
+    major: computer science
+    skills:
+      - java
+      - neo4j
+    coops:
+      - small data management company (internship)
+
+  - name: Jakob Hain
+    huskyemail: Hain.j
+    year: 3rd year
+    major: computer science
+    link: http://jakobeha.github.io
+    skills:
+      - PL
+      - functional programming
+      - git
+    coops:
+      - Research co-op at PRL
+
+  - name: Jacob Aronoff
+    huskyemail: aronoff.j
+    year: 4th year
+    major: computer science
+    link:
+      - github.com/jaronoff97
+      - jaronoff.com
+    skills:
+      - cloud
+      - backend
+      - app dev
+    coops:
+      - Datadog
+      - Drift
+  - name: Fiona McCrae
+    huskyemail: mccrae.f
+    year: 2nd year
+    major:
+      - Cybersecurity BS
+      - Political Science Minor
+    skills:
+      - cyber security
+      - linux
+      - writing/editing
+      - java
+      - maven
+      - confluence
+
+  - name: Eli Kirmayer
+    huskyemail: kirmayer.e
+    year: 4th year
+    major: cs
+    skills:
+      - python
+      - databases
+      - lil bit of R
+      - some web frameworks
+      - algorithms
+    coops:
+      - Nvidia
+
+  - name: David Tandetnik
+    huskyemail: tandetnik.da
+    year: 4th year
+    major: Computer Science
+    link: https://github.com/dtxcode
+    skills:
+      - back-end cloud development (AWS, GCP)
+      - server architecture
+      - server design (microservices, kubernetes)
+    coops:
+      - Skillz
+      - Mercari
+      - Amazon
+
+  - name: Zheng Fang
+    huskyemail: zackandaerith1@gmail.com
+    year: Master's
+    major: Computer Information
+    skills:
+      - Git
+      - R
+      - python
+      - SAS
+
+  - name: Shane Timmerman
+    huskyemail: shanetimmerman@gmail.com
+    year: 4th year
+    major: computer science + biology
+    link: https://github.com/shanetimmerman
+    skills:
+      - python
+      - java
+      - JS
+      - scala
+      - elixir
+      - perl frameworks
+      - flask
+      - react
+      - phoenix
+      - kivy
+      - MS SQL
+      - mySql
+      - postgreSQL
+      - SQLite
+      - hive
+      - hadoop
+      - spark
+      - git
+      - docker
+      - pytest
+      - kafka
+      - kubernetes
+      - helm
+    coops:
+      - Wayfair
+      - FluidScreen
+
+  - name: Victoria Yang
+    huskyemail: yang.wenhu
+    year: 5th year
+    major: computer science + business
+    skills:
+      - java
+      - python
+      - ruby on rails
+    coops:
+      - Workday
+      - Morgan Stanley (internship)
+      - Coinbase
+      - startup (product management internship)
+
+  - name: Mohini Limbodia
+    huskyemail: limbodia.m
+    year: Master's
+    major: computer science
+    skills:
+    coops:
+      - currently doing a co-op
+
+  - name: Nate Hofmann
+    huskyemail: hofmann.n
+    year: 3rd year
+    major: computer science (minor in Economics)
+    skills:
+      - python
+      - java
+      - SQL
+      - git
+      - bash
+      - javaFX
+      - python imaging library
+    coops:
+      - Draper Laboratory
+
+  - name: Makena Oda
+    huskyemail: oda.m
+    year: 2nd year
+    major: computer science and criminal justice
+    link: https://github.com/makenaoda
+    skills:
+      - java
+      - racket
+      - adobe premiere
+      - adobe photoshop and illustrator
+
+  - name: Nickhil Tekwani
+    huskyemail: tekwani.n
+    year: 2nd year
+    major: computer science + communication studies
+    skills:
+      - JS
+      - react
+      - git
+      - SQL
+      - tableau
+    coops:
+      - Cloudera
+      - Optum (internship)
+
+  - name: Felicia Zhang
+    huskyemail: zhang.fel
+    year: 4th year
+    major: computer engineering + computer science
+    link: http://feliciazhang.github.io
+    skills:
+      - web dev
+        - react/redux
+        - vue
+        - JS
+        - TS
+      - electronics
+    coops:
+      - Drift
+      - Google
+      - Carbonite

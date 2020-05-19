@@ -1,6 +1,6 @@
-<h2>Spring 2020 Eboard</h2>
+{% assign eboard  = site.data.eboard[{{include.people}}] %}
 
-{% for person in site.data.eboard %}
+{% for person in eboard %}
 <div class="eboardMember">
     {% if person.img %}
     <img class="headshot" src="{{site.url}}/images/people/{{person.img}}">

@@ -4,8 +4,8 @@
 #     Example:   {% include mentor-template.html people="f19" }
 #     This will add the previous eboard to the list under /mentors/past
 
-# 4. Create a new "current" array
-# 5. Add current list of mentors to "current"
+# 3. Create a new "current" array
+# 4. Add current list of mentors to "current"
 #    These people will now show up under /mentor
 
 current:

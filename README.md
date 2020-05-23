@@ -27,7 +27,7 @@ of the new website in your browser, likely at `localhost:4000`.
 ```bash
 
 # Pull repo
-git@github.com:northeastern-cosmo/northeastern-cosmo.github.io.git
+git clone git@github.com:northeastern-cosmo/northeastern-cosmo.github.io.git
 cd northeastern-cosmo.github.io
 
 # If you don't already have homebrew installed, get it. (MUST HAVE for macOS info at http://brew.sh)
